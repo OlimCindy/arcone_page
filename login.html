@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+	<style>
+	  body{
+	  	  background:#353535;
+		  font-family: 'Nanum Barun Gothic', sans-serif;
+	  }
+	  .arclog_wrp{
+	  	  width:500px;
+		  height:auto;
+		  background:#1c1c1c;
+		  margin:0 auto;
+		  font-size:12px;
+		  box-shadow:0 0 15px rgba(0,0,0,0.5);
+		  margin-top:200px;		  
+	  }
+	  .arclog_wrp a{
+	  	  text-decoration:none;
+		  color:#fff;
+	  }
+	  .arclog_logo{
+	  	  width:100px;
+		  height:120px;
+		  margin:0 auto;
+		  padding:80px 0 20px 0;
+	  }
+	  .arclog_logo img{
+	  	  width:auto;
+		  height:100px;		  
+	  }
+	  .arclog_message, .arclog_conrem, #arclog_submit{
+	  	  color:#fff;
+	  }
+	  .arclog_message{
+	  	  border-left:4px solid #da291c;
+		  margin:40px 40px 0 40px;
+		  box-sizing:border-box;
+		  padding:12px;
+		  display:none;
+	  }
+	  .arclog_login{
+	  	  max-width:500px;
+		  padding:60px 60px 0px 60px;
+		  min-height:180px;		  
+	  }
+	  .arclog_logintext, .arclog_pstext{
+	      width:100%;		  
+		  font-size:14px;
+		  color:#fff;
+		  height:42px;
+	  }
+	  #arclog_user, #arclog_pass{
+	      width:100%;
+	  	  display:block;
+		  background:none;
+		  border:none;
+		  border-bottom:1px solid #fff;
+	  }
+	  #arclog_user{
+	  	  margin-bottom:30px;
+	  }
+
+	  .arclog_conrem{
+	      max-width:500px;
+		  padding:40px 60px 0px 60px;
+		  height:100px;
+
+	  }
+	  .arclog_conrem_s{
+	  	  float:left;
+		  color:#808080;
+	  }
+	  .arclog_conrem_s:last-child{
+	  	  float:right;
+		  margin:40px 0;
+		  color:#fff;
+	  }
+	  .arclog_conrem_s img{
+	  	  margin-left:5px;
+	  }
+	  .arclog_conrem_s input[type=checkbox]{
+	  	  width:16px;
+		  height:16px;
+		  margin:0 6px;
+		  background:#fbfbfb;
+		  color:#555;
+		  display:inline-block;		  
+		  font-size:14px;
+	  }
+	  .arclog_conrem_s span{
+	  	  position:relative;
+		  top:-3px;
+	  }
+	  .arclog_lostlog{
+	      max-width:500px;
+		  min-height:100px;
+		  padding:10px 60px 0px 60px;
+		  color:#fff;
+	  }
+	  .arclog_lostlog_s{
+	  	  float:left;
+	  }
+	  .arclog_lostlog_s:last-child{
+	  	  float:right;
+	  }	  
+	  .arclog_lostlog_s #arclog_submit{
+	      background:#da291c;
+		  border:none;
+		  border-color:#da291c;
+		  width:93px;
+		  height:40px;
+	      line-height:40px;
+		  box-shadow:none;
+	  }
+	</style>
+</head>
+<body>
+  <div class="arclog_wrp">
+    <div class="arclog_logo"><a href="#"><img src="arcone_logo/ARCONE_BI.png"></a></div>
+	<div class="arclog_message"><span>로그아웃 하셨습니다</span></div>
+	<div class="arclog_login">
+	  <div class="arclog_logintext"><p>사용자명 또는 이메일 주소</p></div>
+	  <input type="text" name="log" id="arclog_user">
+	  <div class="arclog_pstext"><p>비밀번호</p></div>
+      <input type="text" name="log" id="arclog_pass">
+	</div>
+	<div class="arclog_conrem">
+	  <div class="arclog_conrem_s"><p>Connet with :</p><a href="#"><img src="arcone_logo/google.png"></a></div>
+	  <div class="arclog_conrem_s"><input type="checkbox" id="arclog_rem"><span>기억하기</span></div>
+	</div>
+	<div class="arclog_lostlog">	  
+	  <div class="arclog_lostlog_s"><a href="#"><p id="arclog_lostps">비밀번호를 잃어버렸나요?</p></a></div>
+	  <div class="arclog_lostlog_s"><input type="submit" name="log_sub" id="arclog_submit" value="로그인"></div>
+	</div>
+  </div>
+</body>
+</html>

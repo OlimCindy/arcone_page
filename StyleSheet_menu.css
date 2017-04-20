@@ -1,0 +1,14 @@
+﻿*{text-align:center; margin:0; padding:0; font-size:16px;}
+a{text-decoration:none;}
+ul, li{list-style:none;}
+
+
+.menu_wrp{width:200px; height:100%; background-color:#151515; padding-top:3%; position:fixed; top:0; left:0;}
+.menu_wrp ul{padding-top:27%;}
+.menu{color:#fff; height:45px; text-align:left; padding:0 10%; transition:0.4s;}
+.menu_line{border-bottom:1px solid #da291c; width:0; height:10px;}
+.menu_logo{width:80%; height:auto; padding:0 10%;}
+.menu_logo img{width:100%; height:auto;}
+
+.menu:hover .menu_line{width:100%; transition:0.4s;}
+.menu:hover {color:#ccc;}

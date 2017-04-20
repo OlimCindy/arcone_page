@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+	<style>
+	  body{
+	    background:#353535;
+		font-family: 'Nanum Barun Gothic', sans-serif;
+	  }
+	 .arcmypage_wrp{
+	    width:500px;
+	    height:auto;
+	    background:#fff;
+	    margin:0 auto;
+	    font-size:12px;
+	    box-shadow:0 0 15px rgba(0,0,0,05);
+	    margin-top:200px;
+		font-size:14px;
+		color:#333;
+		border-radius:10px;
+	 }
+	 .arcmypage_wrp a{
+	    text-decoration:none;
+        color:#333;
+	 }
+	 .arcmypage_wrp input[type=text]{
+	 	 border-radius:5px;
+		 border:none;
+		 background:#e7ebee;
+		 height:36px;
+	 }
+	 .arcmp_headwrp{
+	 	 width:100%;
+		 height:60px;
+		 background:#da291c;
+		 padding:0;
+		 border-radius:10px 10px 0 0;
+	 }
+	 .arcmp_head{
+	     width:120px;
+		 height:50px;
+	 	 font-size:22px;
+		 padding:0px 0 0 25px;
+		 margin:0 auto;
+	 }	 
+	 .arcmp_head p{
+	 	 float:left;
+		 margin-right:10px;		
+		 color:#fff;
+	 }
+
+    .arcmp_logowrp{
+	    width:100%;
+		height:100px;
+		margin:55px 0 55px 0;
+	}
+	 .arcmp_logo{
+	    width:200px;
+		height:auto;
+		margin:0 auto;
+	 }
+	 .arcmp_logo img{
+	 	 width:auto;
+		 height:100px;		
+	 }
+	 .arcmp_textwrp{
+	 	 padding:0 40px 40px 40px;
+	 }
+	 .arcmp_namec{
+	 	 border-bottom:1px solid #e9e9e9;
+	 }
+	 .arcmp_namec input[type=text]{
+	 	 width:100%;
+	 }
+	 .arcmp_namep{
+		 height:94px;
+		 border-bottom:1px solid #e9e9e9;
+	 }
+	 .arcmp_namep_sm div{
+	 	 float:left;
+		 width:45%;
+	 }
+	 .arcmp_namep_sm div:last-child{
+	 	 float:right;
+	 }
+	 .arcmp_namep_sm input[type=text]{
+	 	 width:100%;
+	 }
+	 .arcmp_phone{
+		 height:96px;
+		 border-bottom:1px solid #e9e9e9;
+		 margin-bottom:20px;
+	 }
+	 .arcmp_phone_s{
+	 	 float:left;
+	 }
+	 .arcmp_phone_s input[type=text]{
+	 	 width:200%;
+	 }
+	 .arcmp_phone_s:last-child{
+		 float:right;
+	 }
+	  #arcmp_do, #arcmp_com{
+	  	  background:#fff;
+		  border:none;
+		  background:#da291c;
+		  width:93px;
+		  height:36px;
+	      line-height:36px;
+		  box-shadow:none;
+		  color:#fff;
+		  border-radius:5px;
+	  }
+	  #arcmp_do{
+	  	  display:block;
+	  }
+	  #arcmp_com{
+	  	  background:#808080;
+		  display:none;
+	  }
+	</style>
+</head>
+<body>
+  <div class="arcmypage_wrp">
+    <div class="arcmp_headwrp">
+	  <div class="arcmp_head"><p class="para"></p><p>MY PAGE</p></div>
+	</div>
+    <div class="arcmp_logowrp">
+	  <div class="arcmp_logo"><img src="partner_logo/13_hh.png"></div>
+	</div>
+
+	<div class="arcmp_textwrp">
+	  <div class="arcmp_namec">
+	    <p>업체명</p>
+	    <p><input type="text"></p>
+	  </div>
+	  <div class="arcmp_namep">
+	    <div class="arcmp_namep_sm">
+	      <div><p>이름</p><p><input type="text"></p></div>
+	      <div><p>직함</p><p><input type="text"></p></div>
+	    </div>
+	  </div>
+	  <div class="arcmp_phone">
+	    <div class="arcmp_phone_s">
+	      <p>연락처</p><p><input type="text"></p>
+	   </div>
+	    <div class="arcmp_phone_s">
+		  <p><br/></p>
+	      <input type="submit" name="log_sub" id="arcmp_do" value="인증하기">
+	  	  <input type="submit" name="log_sub" id="arcmp_com" value="인증완료">
+	    </div>
+	 </div>
+	</div>	
+  </div>
+</body>
+</html>
